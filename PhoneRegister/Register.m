@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Elizabeth Martínez Gómez. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Register.h"
 
-@interface ViewController ()
+@interface Register ()
 
 @end
 
-@implementation ViewController
+@implementation Register
 
 - (void)viewDidLoad {
     [super viewDidLoad];

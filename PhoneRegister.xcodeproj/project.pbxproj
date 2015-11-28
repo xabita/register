@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2665C7301C094E4700AC4401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665C72F1C094E4700AC4401 /* main.m */; };
 		2665C7331C094E4700AC4401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665C7321C094E4700AC4401 /* AppDelegate.m */; };
-		2665C7361C094E4700AC4401 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665C7351C094E4700AC4401 /* ViewController.m */; };
+		2665C7361C094E4700AC4401 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665C7351C094E4700AC4401 /* Register.m */; };
 		2665C7391C094E4700AC4401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2665C7371C094E4700AC4401 /* Main.storyboard */; };
 		2665C73B1C094E4700AC4401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2665C73A1C094E4700AC4401 /* Images.xcassets */; };
 		2665C73E1C094E4700AC4401 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2665C73C1C094E4700AC4401 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		2665C72F1C094E4700AC4401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2665C7311C094E4700AC4401 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2665C7321C094E4700AC4401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2665C7341C094E4700AC4401 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2665C7351C094E4700AC4401 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2665C7341C094E4700AC4401 /* Register.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		2665C7351C094E4700AC4401 /* Register.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
 		2665C7381C094E4700AC4401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2665C73A1C094E4700AC4401 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2665C73D1C094E4700AC4401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,10 +81,8 @@
 		2665C72C1C094E4700AC4401 /* PhoneRegister */ = {
 			isa = PBXGroup;
 			children = (
-				2665C7311C094E4700AC4401 /* AppDelegate.h */,
-				2665C7321C094E4700AC4401 /* AppDelegate.m */,
-				2665C7341C094E4700AC4401 /* ViewController.h */,
-				2665C7351C094E4700AC4401 /* ViewController.m */,
+				2665C7541C094ED400AC4401 /* User */,
+				2665C7531C094ECE00AC4401 /* Main */,
 				2665C7371C094E4700AC4401 /* Main.storyboard */,
 				2665C73A1C094E4700AC4401 /* Images.xcassets */,
 				2665C73C1C094E4700AC4401 /* LaunchScreen.xib */,
@@ -117,6 +115,24 @@
 				2665C7481C094E4700AC4401 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2665C7531C094ECE00AC4401 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2665C7311C094E4700AC4401 /* AppDelegate.h */,
+				2665C7321C094E4700AC4401 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		2665C7541C094ED400AC4401 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2665C7341C094E4700AC4401 /* Register.h */,
+				2665C7351C094E4700AC4401 /* Register.m */,
+			);
+			name = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2665C7361C094E4700AC4401 /* ViewController.m in Sources */,
+				2665C7361C094E4700AC4401 /* Register.m in Sources */,
 				2665C7331C094E4700AC4401 /* AppDelegate.m in Sources */,
 				2665C7301C094E4700AC4401 /* main.m in Sources */,
 			);
